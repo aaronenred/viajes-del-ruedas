@@ -31,7 +31,7 @@ svg {
     margin-left: 80px;
     font-size: 20px;
     color: #fbe7ff;
-    font-family: 'Noto Serif Telugu', serif;
+    font-family: 'Noto Sans Vai', sans-serif;
 }
 
 .brillitos {
@@ -51,6 +51,7 @@ select {
     width: 115px;
     height: 30px;
     padding-left: 5px;
+    background-color: rgb(243, 211, 255);
 }
 
 input {
@@ -62,6 +63,7 @@ input {
     border-color: rgb(175, 175, 175);
     padding-left: 7px;
     padding-right: 7px;
+    background-color: rgb(243, 211, 255);
 }
 
 .elboton {
@@ -90,10 +92,13 @@ table {
 }
 
 th{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    padding-right: 110px;
 }
 
 td{
+    font-weight: bold;
     padding: 8px;
 }
 
@@ -112,8 +117,35 @@ a:hover {
     bottom: 2px;
 }
 
+figure{
+
+    margin-top: -3px;
+}
+
+.fotitolink{
+    text-decoration:none;
+}
+
+figcaption{
+    font-size: 20px;
+    background-color: rgba(137, 43, 226, 0.753);
+    color: rgb(243, 211, 255);
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.lapata{
+    font-size: 13px;
+}
+
 hr {
     border: 1px solid rgb(237, 188, 255);
+    margin: 3px;
+    margin-top: 85px;
 }
 
 nav {
