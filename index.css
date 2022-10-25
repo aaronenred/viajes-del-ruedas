@@ -38,6 +38,8 @@ svg {
     font-size: 16px;
 }
 
+/* Todo isto é só a barra morada de arriba, é igual en todas as páxinas */
+
 form {
     background-color: rgba(137, 43, 226, 0.377);
     margin-top: 30px;
@@ -141,6 +143,8 @@ figcaption{
 .lapata{
     font-size: 13px;
 }
+
+/* Dende aquí ata o final solo é o pé de páxina */
 
 hr {
     border: 1px solid rgb(237, 188, 255);
